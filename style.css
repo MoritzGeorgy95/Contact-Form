@@ -1,0 +1,136 @@
+body, html {
+    height: 100%;
+    background-color: beige;
+    overflow: hidden;
+    background-color: rgb(50, 50, 51)
+    
+  }
+
+
+
+/*centerin of steps */
+
+.step-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+/* design of steps and placeholders 
+
+.step {
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: yellow;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.placeholder {
+    border: 1px black solid;
+    width: 14rem;
+    height: 0.05rem;
+    background-color: black;
+}
+*/
+
+/*centering of form */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form {
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    
+    
+}
+
+
+/* form-style*/
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+}
+
+.button-field {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   
+
+}
+
+.formbutton {
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: yellow;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.formbutton:hover {
+    color: white;
+}
+
+label {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.textlink {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.textlink:hover {
+    text-decoration: underline;
+}
+
+
+/* forms */
+
+#form2, #form3, #form4 {
+    display: none;
+}
+

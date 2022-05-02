@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--
+    <div class="step-container">
+        <div class="step">
+            Step 1
+        </div>
+
+        <div class="placeholder"></div>
+
+        <div class="step">
+            Step 2
+        </div>
+
+        <div class="placeholder"></div>
+
+        <div class="step">
+            Step 3
+        </div>
+    </div>
+-->
+    
+
+    <div class="form-container">
+        <form id="form1" method="post" action="" >
+            <h4 class="heading">Login Here</h3>
+            <div class="input-field">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email" required>    
+            </div>
+            
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            
+            <div class="button-field">
+                <input type="button" value="Login" class="formbutton">
+            </div>
+            <div class="textlink nextbutton">
+                <p>No account yet? Register here</p>
+            </div>
+            
+        </form>
+        <form id="form2" method="post" action="" >
+            <h4 class="heading">Create Account</h3>
+            <div class="input-field">
+                <label for="email">Select E-Mail</label>
+                <input type="email" name="email" id="email" required>    
+            </div>
+            
+            <div class="input-field">
+                <label for="password">Select password</label>
+                <input type="password" name="password" id="password" required class="password-selector">
+            </div>
+            
+            <div class="input-field">
+                <label for="password">Confirm password</label>
+                <input type="password" name="confirm" id="password" required class="password-selector">
+            </div>
+
+            <div class="button-field">
+                <input type="button" value="Next" class="formbutton nextbutton">
+            </div>
+            <div class="textlink previousbutton">
+                <p>Already have an account?</p>
+            </div>
+            
+            
+        </form>
+        <form id="form3" method="post" action="" >
+            <h4 class="heading"> Contact Information</h3>
+            <div class="input-field">
+                <label for="email">Adress</label>
+                <input type="adress" name="adress" id="adress" required>    
+            </div>
+            
+            <div class="input-field">
+                <label for="zipcode">Zip-Code</label>
+                <input type="zipcode" name="zipcode" id="zipcode" required>
+            </div>
+
+            <div class="input-field">
+                <label for="city">City</label>
+                <input type="city" name="city" id="city" required>
+            </div>
+            
+            <div class="button-field">
+                <input type="button" value="Previous" class="formbutton previousbutton">
+                <input type="button" value="Next" class="formbutton nextbutton">
+            </div>
+            
+        </form>
+        <form id="form4" method="post" action="" >
+            <h4 class="heading">Payment Information</h3>
+            <div class="input-field">
+                <label for="creditcard">Card Number</label>
+                <input type="creditcard" name="creditcard" id="creditcard" required>    
+            </div>
+            
+            <div class="input-field">
+                <label for="security">Security Number</label>
+                <input type="security" name="security" id="security" required>
+            </div>
+            
+            <div class="button-field">
+                <input type="button" value="Previous" class="formbutton previousbutton">
+                <input type="button" value="Complete" class="formbutton">
+            </div>
+            
+        </form>
+        
+    </div>
+    
+    <script src="contactform.js" defer></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</body>
+</html>
